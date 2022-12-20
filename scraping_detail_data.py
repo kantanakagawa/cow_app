@@ -10,7 +10,7 @@ import datetime
 driver = webdriver.Chrome()
 driver.get('https://www.kenchikukyo.jp/schedule/')
 
-class Sucraping_detail:
+class Scraping_detail:
 
     def get_years(self):
         l = []
